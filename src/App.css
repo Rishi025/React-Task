@@ -1,0 +1,81 @@
+.App{
+  height:800px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(lightblue, skyblue, blue);
+}
+.todo{
+  /* height:400px; */
+  width:400px;
+  background:white;
+  padding-left:30px;
+  padding-bottom:50px;
+}
+input{
+  height:34px;
+  width:70%;
+  border:none;
+  outline:5px solid gray;
+  font-size:20px;
+  padding-left:10px;
+}
+#AddBtn{
+  height:40px;
+  width:40px;
+  margin: 0 0 0 10px;
+  font-size:25px;
+  border:none;
+  color:white;
+  font-weight:bold;
+  background:purple;
+  cursor:pointer;
+}
+#nav-link{
+  background:rgba(128, 128, 128, 0.275);
+  margin-top:20px;
+  list-style: none;
+  width:86%;
+  padding-left:10px;
+}
+#inp{
+  height:40px;
+  width:60%;
+}
+#BtnEdit{
+  margin-left:20px;
+  height:40px;
+  width:40px;
+  font-size:20px;
+  border:none;
+  color:white;
+  font-weight:bold;
+  background:purple;
+  cursor:pointer;
+}
+#BtnDelete{
+  margin-left:60px;
+  height:40px;
+  width:44px;
+  font-size:20px;
+  border:none;
+  color:white;
+  font-weight:bold;
+  background:crimson;
+  cursor:pointer;
+}
+#ClearBtn{
+  margin-top:30px;
+  height:40px;
+  width:30%;
+  border:none;
+  font-size:20px;
+  font-weight:bold;
+  background:purple;
+  color:white;
+  cursor:pointer;
+}
+span{
+  font-weight:bold;
+  margin-right:10px;
+}
